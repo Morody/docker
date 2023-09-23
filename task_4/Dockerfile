@@ -9,8 +9,8 @@ RUN apt install mysql-server -y
 MAINTAINER User userov <mail.ru>
 # Переменная окружения образа
 ENV MYSQL_ROOT_PASSWORD=root
-#Скопировал папку в контейнер
-COPY app .
+#Скопировал текущую директорию в контейнер
+COPY . /app
 #Загрузил из сети файл .mp4 в папку /opt
 ADD https://raw.githubusercontent.com/discdiver/pachy-vid/master/sample_vids/vid1.mp4 \
 /opt
