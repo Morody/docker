@@ -14,3 +14,4 @@ docker-compose
 ---
 ## Task4
 + Dockerfile создает образ, на который инсталлируются nginx и mysql.
+![](https://github.com/Morody/docker/blob/1854f638d040fb5ae99988ebc4083917071b833a/img/Screenshot%20from%202023-09-23%2008-27-52.png)
