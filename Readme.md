@@ -7,6 +7,7 @@ Ansible
 docker-compose
 + Создает два docker контейнера в одной сети 10.10.10.0/28 типа bridge - Nginx и Mysql
 ![](https://github.com/Morody/docker/blob/e70899c7b08345fc3ab95869c273eebd4c9a709b/img/img2/Screenshot%20from%202023-09-23%2012-33-27.png)
+![](https://github.com/Morody/docker/blob/497ccfd1b03f71b6a29713c76da345b02eccbae0/img/Screenshot%20from%202023-09-23%2013-28-30.png)
 ---
 ## Task3
 + Скрипт создает в системе всем неслужебным пользователям (реальным) соответствующие каталоги в директории корневого каталога, устанавливает на каждую права 755. Лог выводится в stdout и в файл
